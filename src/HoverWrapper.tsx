@@ -35,7 +35,9 @@ const HoverWrapper = ({
   );
 
   useEffect(() => {
-    const spanElements = document.querySelectorAll("span");
+    const spanElements: NodeListOf<HTMLSpanElement> = document.querySelectorAll(
+      ".hoverWrapperContainer span"
+    );
 
     spanElements.forEach((span: HTMLSpanElement) => {
       span.addEventListener("mouseover", handleSpanHover);
