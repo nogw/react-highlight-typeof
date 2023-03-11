@@ -1,1 +1,1 @@
-> **_NOTE:_** This is just a prototype of an idea I intend to add to my blog, so please don't use it yet as it's still poorly optimized/developed ;D
+> **_NOTE:_** This is just a [prototype](https://github.com/nogw/blog-graphql-frontend/blob/master/screenshots/prototype.jpeg) of an idea I intend to add to my blog, so please don't use it yet as it's still poorly optimized/developed ;D
