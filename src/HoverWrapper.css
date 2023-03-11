@@ -1,0 +1,27 @@
+.hoverWrapperContainer {
+  width: 100%;
+  position: relative;
+}
+
+.hoverWrapperContainer pre {
+  /* TODO: how can I prevent overflow from being set by ReactSyntaxHighlight? 
+  do I really need to use the overflow to ensure that the `hovered` is not cut off? */
+  overflow: visible !important;
+}
+
+.hovered {
+  position: relative;
+  cursor: pointer;
+}
+
+.hovered:hover::before {
+  content: "";
+  padding: 0px 16px 4px 16px;
+  position: absolute;
+  bottom: 1.25em;
+  border: 1px solid #181B1E;
+  background-color: #20252A;
+  color:#ffffff90;
+  font-family: monospace;
+  font-weight: 500;
+}

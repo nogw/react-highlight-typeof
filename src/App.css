@@ -1,0 +1,8 @@
+.App {
+  background-color: #333743;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(24px + 2vmin);
+}

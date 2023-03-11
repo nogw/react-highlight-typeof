@@ -1,0 +1,17 @@
+{
+  "highlight": {
+    "shared": {
+      "a": "number[]",
+      "b": "number[]",
+      "c": "number[]",
+      "d": "number[]",
+      "list": "number[]",
+      "example": "(list: number[]) => number[]",
+      "squareList": "(list: number[]) => number[]",
+      "multiplyByTen": "(list: number[]) => number[]",
+      "subtractThreeFromEach": "(list: number[]) => number[]",
+      "divideByTwo": "(list: number[]) => number[]",
+      "addFiveToEach": "(list: number[]) => number[]"
+    }
+  }
+}
